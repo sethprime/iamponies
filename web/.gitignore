@@ -40,3 +40,9 @@ sites/simpletest
 
 # Ignore multi-site test environment.
 # simpletest
+
+# Ignore .well-known SSL directory.
+.well-known
+
+# Ignore server PHP configuraiton.
+php.ini
