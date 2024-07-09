@@ -42,6 +42,11 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            },
+            "file-mapping": {
+                "[web-root]/.htaccess": {
+                    "append": "assets/siteground-php-htaccess.txt"
+                }
             }
         },
         "installer-paths": {
