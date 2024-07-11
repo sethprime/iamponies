@@ -1,0 +1,24 @@
+uuid: 748ac464-4a2a-4ce9-b707-e0d638c76bd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.badges
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__badges_block_1
+theme: olivero
+region: sidebar
+weight: -7
+provider: null
+plugin: 'views_block:badges-block_1'
+settings:
+  id: 'views_block:badges-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

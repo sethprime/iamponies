@@ -1,0 +1,19 @@
+uuid: af07a960-c3ed-48d6-98ff-139c76aa42d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_time
+    - node.type.pool_test
+id: node.pool_test.field_test_time
+field_name: field_test_time
+entity_type: node
+bundle: pool_test
+label: 'Test time'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

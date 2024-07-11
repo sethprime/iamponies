@@ -1,0 +1,23 @@
+uuid: 6090c26c-39da-4138-814b-772d5366ae75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chlorine
+    - node.type.pool_test
+id: node.pool_test.field_chlorine
+field_name: field_chlorine
+entity_type: node
+bundle: pool_test
+label: 'Chlorine level'
+description: 'Chlorine level in parts per million (ppm).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 1000000.0
+  prefix: ''
+  suffix: ppm
+field_type: decimal

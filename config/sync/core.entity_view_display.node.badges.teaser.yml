@@ -1,0 +1,32 @@
+uuid: 81bebe19-2b2d-4563-904a-6f0209921a11
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.badges.body
+    - field.field.node.badges.field_image
+    - image.style.medium
+    - node.type.badges
+  module:
+    - image
+    - user
+id: node.badges.teaser
+targetEntityType: node
+bundle: badges
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  links: true

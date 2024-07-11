@@ -1,0 +1,23 @@
+uuid: 8b87aee7-49b6-44b7-951d-20f9e22e4b66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured
+    - node.type.case_study
+id: node.case_study.field_featured
+field_name: field_featured
+entity_type: node
+bundle: case_study
+label: Featured
+description: 'Display as featured content.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,17 @@
+uuid: 018ba63f-7a69-4c05-911f-2e1022c3086a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Case Study'
+type: case_study
+description: 'A review of work performed.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

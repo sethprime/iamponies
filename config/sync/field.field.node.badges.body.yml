@@ -1,0 +1,24 @@
+uuid: 426194d4-46b9-49d8-ac9c-90343e36bf4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.badges
+  module:
+    - text
+id: node.badges.body
+field_name: body
+entity_type: node
+bundle: badges
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

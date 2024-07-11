@@ -1,0 +1,25 @@
+uuid: 39e975b4-6c53-43fd-8f7a-d087200b6565
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0a3cb477-2ce2-40ce-bbfa-27ff3c721d79'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_elevatorpitch
+theme: olivero
+region: sidebar
+weight: -8
+provider: null
+plugin: 'block_content:0a3cb477-2ce2-40ce-bbfa-27ff3c721d79'
+settings:
+  id: 'block_content:0a3cb477-2ce2-40ce-bbfa-27ff3c721d79'
+  label: 'Elevator Pitch'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

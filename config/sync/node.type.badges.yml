@@ -1,0 +1,17 @@
+uuid: 969e079c-4f8b-42ef-9d97-3a5161a35b68
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Badges
+type: badges
+description: 'Perhaps we need them.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

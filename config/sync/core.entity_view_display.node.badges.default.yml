@@ -1,0 +1,42 @@
+uuid: d083c511-abd1-4bec-a4d1-e7849c7909c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.badges.body
+    - field.field.node.badges.field_image
+    - image.style.wide
+    - node.type.badges
+  module:
+    - image
+    - text
+    - user
+id: node.badges.default
+targetEntityType: node
+bundle: badges
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

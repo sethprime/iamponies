@@ -1,0 +1,9 @@
+status: 1
+pattern: '[node:field_test_time:date:html_date] ([node:field_ph] pH / [node:field_chlorine] Cl)'
+escape: false
+preserve_titles: false
+save: true
+chunk: 50
+dependencies:
+  config:
+    - node.type.pool_test
